@@ -1,0 +1,7 @@
+C:\Users\priya\Downloads\path.kaleido-main (2)\path.kaleido-main\obj\Release\net8.0\PubTmp\Out\path.kaleido.exe
+C:\Users\priya\Downloads\path.kaleido-main (2)\path.kaleido-main\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\priya\Downloads\path.kaleido-main (2)\path.kaleido-main\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\priya\Downloads\path.kaleido-main (2)\path.kaleido-main\obj\Release\net8.0\PubTmp\Out\path.kaleido.dll
+C:\Users\priya\Downloads\path.kaleido-main (2)\path.kaleido-main\obj\Release\net8.0\PubTmp\Out\path.kaleido.deps.json
+C:\Users\priya\Downloads\path.kaleido-main (2)\path.kaleido-main\obj\Release\net8.0\PubTmp\Out\path.kaleido.runtimeconfig.json
+C:\Users\priya\Downloads\path.kaleido-main (2)\path.kaleido-main\obj\Release\net8.0\PubTmp\Out\path.kaleido.pdb

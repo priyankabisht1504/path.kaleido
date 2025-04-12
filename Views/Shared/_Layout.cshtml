@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kaleido Path</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="~/images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/animate.css">
+
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="/css/flaticon.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Centering Caption */
+        .carousel-caption {
+            bottom: 20%;
+            text-align: center;
+            z-index: 2;
+        }
+
+            .carousel-caption h1 {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+
+            .carousel-caption p {
+                font-size: 1.2rem;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+        /* Fixed Height for Carousel */
+        .carousel-item {
+            height: 500px;
+            background-color: black; /* Prevents white flicker */
+        }
+
+            .carousel-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Ensures images fit within 300px without distortion */
+            }
+
+        /* Ensure no white screen between transitions */
+        .carousel-inner, .carousel-item {
+            background-color: black; /* Extra protection against flickering */
+        }
+
+        /* Custom Controls */
+        .carousel-control-prev, .carousel-control-next {
+            width: 5%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div b-mnb6u894s9="" class="top-header">
+        <div b-mnb6u894s9="" class="container my-2">
+            <div b-mnb6u894s9="" class="header-left">
+                <span b-mnb6u894s9=""><i b-mnb6u894s9="" class="fa fa-phone-alt"></i><a b-mnb6u894s9="" href="tel://+919654565136">+91 9654565136</a></span>
+                <span b-mnb6u894s9=""><a b-mnb6u894s9="" href="mailto:info@pathkaleido.com" class="text-light mx-2"><i b-mnb6u894s9="" class="fa fa-envelope"></i> info@pathkaleido.com</a></span>
+            </div>
+            <div b-mnb6u894s9="" class="header-right">
+                <a b-mnb6u894s9="" href="https://www.facebook.com/people/Kaleido-Path/pfbid0W9zqJnDCM4dJ8o2YaiuC2uAxrMcQc23EAk7W9i7CoevNbcCi2CWzZ8QEJT3PxqPhl/?rdid=hZy4aWvQ7ZCtHPWC&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1HXDPT7iKh%2F" class="text-light mx-2" target="_blank"><i b-mnb6u894s9="" class="fa fa-facebook-f" style="color: #1877F2; font-size: 24px;"></i></a>
+                <a b-mnb6u894s9="" href="https://x.com/kaleidopath?s=21" class="text-light mx-2" target="_blank"><i b-mnb6u894s9="" class="fa fa-twitter" style="color: #1DA1F2; font-size: 24px;"></i></a>
+                <a b-mnb6u894s9="" href="https://www.instagram.com/path.kaleido/" class="text-light mx-2" target="_blank"><i b-mnb6u894s9="" class="fa fa-instagram" style="color: #E4405F; font-size: 24px;"></i></a>
+                <a b-mnb6u894s9="" href="https://www.youtube.com/KaleidoPath" class="text-light mx-2" target="_blank"><i b-mnb6u894s9="" class="fa fa-youtube" style="color: #FF0000; font-size: 24px;"></i></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" style="height:65px">
+        <div class="container">
+            <a class="navbar-brand font-monospace font-weight-bold d-flex align-items-center" href="@Url.Action("Index", "Home")">
+                <img src="~/images/logo.png" alt="Kaleido Path Logo" width="125" height="60" class="me-2">
+                Kaleido Path
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                   
+                    <li class="nav-item active"><a href="@Url.Action("index", "Home")" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="@Url.Action("about", "Home")" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="@Url.Action("Contact", "Home")" class="nav-link">Contact</a></li>
+                </ul>
+
+                <!-- Social Media Icons -->
+                <div b-mnb6u894s9="" class="ml-3">
+                    <a b-mnb6u894s9="" href="https://www.facebook.com/people/Kaleido-Path/pfbid0W9zqJnDCM4dJ8o2YaiuC2uAxrMcQc23EAk7W9i7CoevNbcCi2CWzZ8QEJT3PxqPhl/?rdid=hZy4aWvQ7ZCtHPWC&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1HXDPT7iKh%2F" class="mx-2" target="_blank"><i b-mnb6u894s9="" class="fa fa-facebook" style="color: #1877F2; font-size: 24px;"></i></a>
+                    <a b-mnb6u894s9="" href="https://x.com/kaleidopath?s=21" class="mx-2" target="_blank"><i b-mnb6u894s9="" class="fa fa-twitter" style="color: #1DA1F2; font-size: 24px;"></i></a>
+                    <a b-mnb6u894s9="" href="https://www.instagram.com/path.kaleido/" class="mx-2" target="_blank"><i b-mnb6u894s9="" class="fa fa-instagram" style="color: #E4405F; font-size: 24px;"></i></a>
+                    <a b-mnb6u894s9="" href="https://www.youtube.com/KaleidoPath" class="mx-2" target="_blank"><i b-mnb6u894s9="" class="fa fa-youtube" style="color: #FF0000; font-size: 24px;"></i></a>
+                </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="7"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="8"></button>
+          
+        </div>
+
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="~/images/carousel00.jpg" class="d-block w-100" alt="Char Dham Tour">
+                <div class="carousel-caption">
+                    <h1>Path Kaleido – Your Spiritual Compass</h1>
+                    <p>Guiding you through the sacred journey with ease.</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="~/images/carousel01.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption">
+                    <h1>Mystical Mountains Await!</h1>
+                    <p>Experience the breathtaking landscapes and divine serenity of Uttarakhand.</p>
+                </div>
+            </div>
+
+           <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="~/images/carousel05.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption">
+                    <h1>Journey to the Divine!</h1>
+                    <p>Discover the sacred energy of Char Dham with us.</p>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+                <img src="~/images/carousel04.jpg" class="d-block w-100" alt="Slide 4">
+                <div class="carousel-caption">
+                    <h1>Walk the Path of Legends!</h1>
+                    <p>Travel through ancient trails, where spirituality meets adventure.</p>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="carousel-item">
+                <img src="~/images/carousel09.jpg" class="d-block w-100" alt="Slide 5">
+                <div class="carousel-caption">
+                    <h1>Wander Beyond the Horizon!</h1>
+                    <p>Explore hidden gems and sacred sites on a soul-enriching journey.</p>
+                </div>
+            </div>
+            <!-- Slide 6-->
+            <div class="carousel-item">
+                <img src="~/images/carousel06.jpg" class="d-block w-100" alt="Slide 6">
+                <div class="carousel-caption">
+                    <h1>Seamless Travel, Spiritual Bliss</h1>
+                    <p>Let us take care of the details while you embrace the journey.</p>
+                </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="carousel-item">
+                <img src="~/images/carousel07.jpg" class="d-block w-100" alt="Slide 7">
+                <div class="carousel-caption">
+                    <h1>A Spiritual Voyage Like No Other!</h1>
+                    <p>Reconnect with nature and faith on an unforgettable pilgrimage.</p>
+                </div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="carousel-item">
+                <img src="~/images/carousel10.jpg" class="d-block w-100" alt="Slide 5">
+                <div class="carousel-caption">
+                    <h1>Find Peace, Seek Blessings</h1>
+                    <p>Step into the land of gods and experience divine tranquility.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+  
+
+    
+   
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    
+    <footer class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(images/carousel04.jpg);">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md pt-5">
+                <div class="ftco-footer-widget pt-md-5 mb-4">
+                    <h2 class="ftco-heading-2">About Path Kaleido</h2>
+                    <p>Experience the sacred beauty of Uttarakhand with us. Explore Char Dham Yatra, scenic landscapes, and spiritual adventures effortlessly.</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                            <li class="ftco-animate"><a href="https://www.instagram.com/path.kaleido/" target="_blank"><span class="fa fa-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/people/Kaleido-Path/pfbid0W9zqJnDCM4dJ8o2YaiuC2uAxrMcQc23EAk7W9i7CoevNbcCi2CWzZ8QEJT3PxqPhl/?rdid=hZy4aWvQ7ZCtHPWC&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1HXDPT7iKh%2F" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                       @*  <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li> *@
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md pt-5 border-left">
+                <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+                    <h2 class="ftco-heading-2">Information</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg" target="_blank"  class="py-2 d-block">Char Dham Tour Packages</a></li>
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg" target="_blank" class="py-2 d-block">Online Booking</a></li>
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg" target="_blank" class="py-2 d-block">Travel Guidelines</a></li>
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg" target="_blank" class="py-2 d-block">Privacy Policy</a></li>
+                       @*  <li><a href="#" class="py-2 d-block">Refund Policy</a></li> *@
+                        <li><a href="@Url.Action("Contact", "Home")" class="py-2 d-block">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md pt-5 border-left">
+                <div class="ftco-footer-widget pt-md-5 mb-4">
+                    <h2 class="ftco-heading-2">Experience</h2>
+                    <ul class="list-unstyled">
+
+                         <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg" target="_blank"  class="py-2 d-block">Char Dham Yatra</a></li>
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg"  target="_blank" class="py-2 d-block">Spiritual Retreats</a></li>
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg"  target="_blank" class="py-2 d-block">Trekking & Adventure</a></li>
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg"  target="_blank" class="py-2 d-block">Local Culture & Festivals</a></li>
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg"  target="_blank" class="py-2 d-block">Camping & Homestays</a></li>
+                        <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg"  target="_blank" class="py-2 d-block">Custom Travel Packages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md pt-5 border-left">
+                <div class="ftco-footer-widget pt-md-5 mb-4">
+                    <h2 class="ftco-heading-2">Have Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon fa fa-map-marker"></span><span class="text">Mayur Vihar, Delhi, India</span></li>
+                            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text"> +91 8595114446</span></a></li>
+                                <li><a href="https://wa.me/+919654565136?text=Hello!%20Can%20I%20get%20more%20info%20on%20this?%20Packegs%20https://www.pathkaleido.com/images/CharDham.jpg" target="_blank"><span class="icon fa fa-paper-plane"></span><span class="text">www.pathkaleido.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>
+                        Copyright &copy; <script>document.write(new Date().getFullYear());</script>Kaleido Path| Designed with <i class="fa fa-heart" aria-hidden="true"> Kaleido Path</i> for Travelers
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+    <script>
+        document.getElementById("toggle-chaty").addEventListener("click", function() {
+            var chatyWidget = document.getElementById("chaty-widget").querySelector(".chaty-widget");
+            if (chatyWidget.style.display === "block") {
+                chatyWidget.style.display = "none";
+            } else {
+                chatyWidget.style.display = "block";
+            }
+        });
+    </script>
+
+	<script src="~/js/jquery.min.js"></script>
+	<script src="~/js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="~/js/popper.min.js"></script>
+	<script src="~/js/bootstrap.min.js"></script>
+	<script src="~/js/jquery.easing.1.3.js"></script>
+	<script src="~/js/jquery.waypoints.min.js"></script>
+	<script src="~/js/jquery.stellar.min.js"></script>
+	<script src="~/js/owl.carousel.min.js"></script>
+	<script src="~/js/jquery.magnific-popup.min.js"></script>
+	<script src="~/js/jquery.animateNumber.min.js"></script>
+	<script src="~/js/bootstrap-datepicker.js"></script>
+	<script src="~/js/scrollax.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="~/js/google-map.js"></script>
+	<script src="~/js/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="~/js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

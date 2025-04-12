@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/obj/Debug/net8.0
+/wwwroot
+/appsettings.Development.json
+/appsettings.json
+/path.kaleido.csproj
+/path.kaleido.csproj.user
+/path.kaleido.sln
+/Program.cs

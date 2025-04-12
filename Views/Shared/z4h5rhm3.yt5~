@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Path Kaleido</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Carousel Height */
+        .carousel-item {
+            height: 100vh; /* Full-screen height */
+            position: relative;
+        }
+
+            /* Image Styling */
+            .carousel-item img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+
+            /* Overlay for Better Text Visibility */
+            .carousel-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            }
+
+        /* Centering Caption */
+        .carousel-caption {
+            bottom: 20%;
+            text-align: center;
+            z-index: 2;
+        }
+
+            .carousel-caption h1 {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+
+            .carousel-caption p {
+                font-size: 1.2rem;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+        .carousel-item {
+            min-height: 100vh; /* Ensures all slides maintain full height */
+            background-color: black; /* Prevents white flicker */
+        }
+
+            .carousel-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Ensures images fill the space without gaps */
+            }
+
+        .carousel-inner {
+            background-color: black; /* Ensures the background is always filled */
+        }
+
+        /* Custom Controls */
+        .carousel-control-prev, .carousel-control-next {
+            width: 5%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="images/destination-1.jpg" class="d-block w-100" alt="Char Dham Tour">
+                <div class="carousel-caption">
+                    <h1>Explore the Divine Char Dham of Uttarakhand</h1>
+                    <p>Embark on a spiritual and scenic journey to sacred sites.</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="images/carousel_1.jpg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption">
+                    <h1>Let Us Guide You Effortlessly!</h1>
+                    <p>No hassle, just pure travel bliss! 🚩🏔️</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="images/carousel_3.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption">
+                    <h1>Your Dream Destination Awaits!</h1>
+                    <p>Experience the magic of Uttarakhand like never before.</p>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+                <img src="images/carousel_4.jpg" class="d-block w-100" alt="Slide 4">
+                <div class="carousel-caption">
+                    <h1>Discover New Places</h1>
+                    <p>Travel to breathtaking landscapes and unforgettable sites.</p>
+                </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="carousel-item">
+                <img src="images/carousel_5.jpg" class="d-block w-100" alt="Slide 5">
+                <div class="carousel-caption">
+                    <h1>Unforgettable Journeys Await</h1>
+                    <p>Let us make your travel dreams a reality.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+@*     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Path Kaleido<span>----------------------</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="destination.html" class="nav-link">Destination</a></li>
+                    <li class="nav-item"><a href="hotel.html" class="nav-link">Hotel</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  
+
+    
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_5.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+                <div class="col-md-7 ftco-animate">
+                    <span class="subheading">Welcome to Path Kaleido</span>
+                    <h1 class="mb-4">Explore the Divine Char Dham of Uttarakhand with Us!</h1>
+                    <p class="caps">Embark on a spiritual and scenic journey to the sacred sites of Uttarakhand. Let us guide you effortlessly to your dream destination—no hassle, just pure travel bliss! 🚩🏔️</p>
+                </div>
+                <!-- <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+                    <span class="fa fa-play"></span>
+                </a> -->
+            </div>
+        </div>
+    </div>
+ *@
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+	<footer class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(images/bg_3.jpg);">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md pt-5">
+                <div class="ftco-footer-widget pt-md-5 mb-4">
+                    <h2 class="ftco-heading-2">About Path Kaleido</h2>
+                    <p>Experience the sacred beauty of Uttarakhand with us. Explore Char Dham Yatra, scenic landscapes, and spiritual adventures effortlessly.</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md pt-5 border-left">
+                <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+                    <h2 class="ftco-heading-2">Information</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Char Dham Tour Packages</a></li>
+                        <li><a href="#" class="py-2 d-block">Online Booking</a></li>
+                        <li><a href="#" class="py-2 d-block">Travel Guidelines</a></li>
+                        <li><a href="#" class="py-2 d-block">Privacy Policy</a></li>
+                        <li><a href="#" class="py-2 d-block">Refund Policy</a></li>
+                        <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md pt-5 border-left">
+                <div class="ftco-footer-widget pt-md-5 mb-4">
+                    <h2 class="ftco-heading-2">Experience</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Char Dham Yatra</a></li>
+                        <li><a href="#" class="py-2 d-block">Spiritual Retreats</a></li>
+                        <li><a href="#" class="py-2 d-block">Trekking & Adventure</a></li>
+                        <li><a href="#" class="py-2 d-block">Local Culture & Festivals</a></li>
+                        <li><a href="#" class="py-2 d-block">Camping & Homestays</a></li>
+                        <li><a href="#" class="py-2 d-block">Custom Travel Packages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md pt-5 border-left">
+                <div class="ftco-footer-widget pt-md-5 mb-4">
+                    <h2 class="ftco-heading-2">Have Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon fa fa-map-marker"></span><span class="text">Rishikesh, Uttarakhand, India</span></li>
+                            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91 98765 43210</span></a></li>
+                            <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@pathkaleido.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>
+                    Copyright &copy; <script>document.write(new Date().getFullYear());</script> Path Kaleido | Designed with <i class="fa fa-heart" aria-hidden="true"></i> for Travelers
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
